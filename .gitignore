@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+portfolio/
+
+# next.js
+.next/
+out/
+
+# env
+.env
+.env.local
+.env.production
+
+# misc
+.DS_Store
+*.log
