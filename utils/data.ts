@@ -12,7 +12,7 @@ export const personalInfo = {
     linkedin: 'https://www.linkedin.com/in/sarvesh-mokal-1381022a3/',
     github: 'https://github.com/sarvesh207590',
     leetcode: 'https://leetcode.com/u/sarveshmokal/',
-    bio: 'A passionate B.Tech student with a strong interest in Java, Web Development, and full-stack technologies. Hardworking, highly motivated, and eager to learn and implement new technologies. I enjoy solving problems and building efficient, scalable applications while continuously improving my technical and communication skills.',
+    bio: 'A passionate B.Tech Graduate with a strong interest in Java, Web Development, and full-stack technologies. Hardworking, highly motivated, and eager to learn and implement new technologies. I enjoy solving problems and building efficient, scalable applications while continuously improving my technical and communication skills.',
 }
 
 export const skills = {
