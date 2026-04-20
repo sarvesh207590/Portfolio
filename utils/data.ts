@@ -69,7 +69,7 @@ export const experiences = [
             'Built and integrated RESTful APIs and managed data using MySQL',
             'Collaborated using Git, GitHub, and Jira in an Agile development environment',
         ],
-        tech: ['React.js', 'Node.js', 'Express.js', 'MySQL', 'TypeScript', 'Git', 'Jira'],
+        tech: ['React.js', 'Node.js', 'Express.js', 'MySQL', 'Tailwind','TypeScript', 'Git', 'Jira'],
         color: '#7c3aed',
     },
     {
@@ -104,7 +104,7 @@ export const projects = [
     {
         title: 'HealthIQ: AI-Driven Medical Diagnosis System',
         description: 'B.Tech project applying AI to healthcare. Simulates multiple doctor opinions using LLMs, extracts pathology insights via OCR, and features a RAG-powered chatbot.',
-        tech: ['Python', 'Streamlit', 'MongoDB', 'OCR', 'OpenAI', 'LangChain', 'RAG'],
+        tech: ['Next.js','React.js','Node.js','Tailwind','Python', 'Streamlit', 'MongoDB', 'OCR', 'OpenAI', 'LangChain', 'RAG'],
         category: 'ML/AI',
         github: 'https://github.com/sarvesh207590/HEALTH-IQ',
         color: '#7c3aed',
@@ -202,4 +202,5 @@ export const certificates = [
     { name: 'Web Development using JavaScript', issuer: 'Pillai College of Engineering (PCE)', icon: '💻' },
     { name: 'PHP and MySQL', issuer: 'Spoken Tutorial (IIT Bombay)', icon: '🗄️' },
     { name: 'Git and GitHub', issuer: 'Infosys Springboard', icon: '🔧' },
+   { name: 'React and Redux', issuer: 'Complete Coding By Prashant Sir', icon: '⚛️' }
 ]
