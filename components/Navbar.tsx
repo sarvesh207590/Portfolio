@@ -143,7 +143,7 @@ export default function Navbar() {
                             {/* Resume button at bottom */}
                             <div className="px-6 py-6 border-t border-white/10">
                                 <a
-                                    href="https://drive.google.com/file/d/13fW0iXk46a4KeYD5vwDOlU6THOFif8Yu/view?usp=drivesdk"
+                                    href="https://drive.google.com/file/d/1ObqKXp9PcbAwPSjM3C965U7cKdagaDEC/view?usp=drivesdk"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn-primary w-full text-center block text-sm"
