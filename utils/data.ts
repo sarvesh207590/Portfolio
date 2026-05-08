@@ -168,6 +168,17 @@ export const projects = [
         color: '#8b5cf6',
         icon: '📊',
     },
+    {
+    title: 'Leave Tracker System',
+    description: 'Full-stack employee leave management system for handling leave requests, approvals, and team availability. Features employee dashboard, leave balance tracking, request history, and manager approval workflow.',
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Vercel'],
+    category: 'Web',
+    github: 'https://github.com/sarvesh207590/Leave_Tracker_Frontend',
+    live: 'https://leave-tracker-frontend.vercel.app/',
+    date: '2026',
+    color: '#3b82f6',
+    icon: '📅',
+}
 ]
 
 export const education = [
