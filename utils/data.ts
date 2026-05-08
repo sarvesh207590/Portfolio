@@ -107,6 +107,8 @@ export const projects = [
         tech: ['Next.js','React.js','Node.js','Tailwind','Python', 'Streamlit', 'MongoDB', 'OCR', 'OpenAI', 'LangChain', 'RAG'],
         category: 'ML/AI',
         github: 'https://github.com/sarvesh207590/HEALTH-IQ',
+         live: 'https://health.synloop.in/',
+
         color: '#7c3aed',
         icon: '🧠',
     },
@@ -125,6 +127,8 @@ export const projects = [
         tech: ['Next.js', 'React.js', 'MongoDB', 'CSS'],
         category: 'Web',
         github: 'https://github.com/sarvesh207590/EPIC_CAFE-Next',
+        live: 'https://epic-canteen.vercel.app/',
+
         color: '#06b6d4',
         icon: '☕',
     },
@@ -134,7 +138,7 @@ export const projects = [
         tech: ['React', 'Vite', 'Bootstrap', 'JavaScript', 'CSS3'],
         category: 'Web',
         github: 'https://github.com/sarvesh207590/Movie_Booking_Application',
-        live: '',
+        live: 'https://movie-booking-application-omega.vercel.app/',
         date: 'Dec 2025',
         color: '#f59e0b',
         icon: '🎬',
