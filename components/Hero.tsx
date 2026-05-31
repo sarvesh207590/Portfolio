@@ -99,7 +99,7 @@ export default function Hero() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.7 }}
                 >
-                    B.Tech in Information Technology (2022–2026) &nbsp;|&nbsp; Pillai College of Engineering &nbsp;|&nbsp; CGPA: 9.5
+                    B.Tech in Information Technology (2022–2026) &nbsp;|&nbsp; Pillai College of Engineering &nbsp;|&nbsp; CGPA: 9.17
                 </motion.p>
 
                 {/* CTA Buttons */}
