@@ -16,6 +16,17 @@ const SUGGESTIONS = [
   'How to contact you?',
 ]
 
+// Convert markdown to clean HTML for chat bubbles
+function formatMessage(text: string): string {
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-cyan-300">$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^- (.+)$/gm, '<li class="ml-3 list-disc">$1</li>')
+    .replace(/(<li[\s\S]*?<\/li>)/g, '<ul class="space-y-1 my-1">$1</ul>')
+    .replace(/\n\n/g, '<br/><br/>')
+    .replace(/\n/g, '<br/>')
+}
+
 export default function ChatBot() {
   const [open, setOpen] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
@@ -122,17 +133,16 @@ export default function ChatBot() {
                 >
                   <div
                     className={`max-w-[80%] px-3 py-2 rounded-2xl text-sm leading-relaxed ${msg.role === 'user'
-                        ? 'text-white rounded-br-sm'
-                        : 'text-gray-200 rounded-bl-sm'
+                      ? 'text-white rounded-br-sm'
+                      : 'text-gray-200 rounded-bl-sm'
                       }`}
                     style={
                       msg.role === 'user'
                         ? { background: 'linear-gradient(135deg, #7c3aed, #2563eb)' }
                         : { background: 'rgba(255,255,255,0.07)', border: '1px solid rgba(255,255,255,0.1)' }
                     }
-                  >
-                    {msg.content}
-                  </div>
+                    dangerouslySetInnerHTML={{ __html: formatMessage(msg.content) }}
+                  />
                 </motion.div>
               ))}
 

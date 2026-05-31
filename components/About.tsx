@@ -11,7 +11,7 @@ const traits = [
 const stats = [
     { value: '8+', label: 'Projects' },
     { value: '3', label: 'Internships' },
-    { value: '9.5', label: 'CGPA' },
+    { value: '9.17', label: 'CGPA' },
     { value: '15+', label: 'Technologies' },
 ]
 

@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${process.env.MISTRAL_API_KEY}`,
+                'Authorization': `Bearer X4F4yrPKPhDnVvjDwxBec9iIVutTmfKS`,
             },
             body: JSON.stringify({
                 model: 'mistral-small-latest',
