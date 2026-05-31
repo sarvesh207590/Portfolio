@@ -5,7 +5,7 @@ export const personalInfo = {
     subtitle: 'AIML Enthusiast',
     degree: 'B.Tech in Information Technology (2022–2026)',
     college: 'Pillai College of Engineering, Navi Mumbai',
-    cgpa: '9.5',
+    cgpa: '9.17',
     location: 'New Panvel, Maharashtra, India',
     email: 'sarveshmokal105@gmail.com',
     phone: '9370061529',
@@ -191,7 +191,7 @@ export const education = [
         institution: 'Pillai College of Engineering',
         location: 'Panvel, Navi Mumbai',
         year: 'Nov 2022 – May 2026',
-        score: 'CGPA: 9.5',
+        score: 'CGPA: 9.17',
         icon: '🎓',
     },
     {
